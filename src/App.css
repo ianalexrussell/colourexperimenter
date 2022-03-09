@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .container {
@@ -20,7 +21,7 @@
   font-size: 1.5em;
   height: 400px;
   width: 200px;
-  border: 1px solid black;
+  border: 5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,4 +58,10 @@ label {
   background-color: rgb(243, 215, 178);
   transform: translateY(2px);
   transform: scale(0.98);
+}
+
+.dark-mode {
+  position: absolute;
+  top: 2em;
+  right: 2em;
 }
