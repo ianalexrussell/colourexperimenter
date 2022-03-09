@@ -1,0 +1,60 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.box {
+  font-size: 1.5em;
+  height: 400px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  position: relative;
+}
+
+input {
+  font-size: 1.5em;
+  height: 2em;
+  border-radius: 5px;
+  width: 200px;
+}
+
+label {
+  position: absolute;
+  transform: translateX(-90000px);
+}
+
+.btn {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 5px #000;
+  padding: 0.25rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(243, 215, 178);
+  transform: translateY(2px);
+  transform: scale(0.98);
+}
